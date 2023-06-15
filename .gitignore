@@ -9,7 +9,7 @@
 **/[Bb]uilds/
 **/[Ll]ogs/
 **/[Uu]ser[Ss]ettings/
-/[Pp]roject[Ss]ettings/
+**/[Pp]roject[Ss]ettings/
 
 # custom ignored folders
 **/[Pp]ackages/
@@ -29,9 +29,6 @@
 *.asset
 *.mat
 *.prefab
-
-/ProjectSettings/BurstAotSettings_StandaloneWindows.json
-
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
