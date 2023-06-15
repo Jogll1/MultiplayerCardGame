@@ -23,6 +23,8 @@
 **/[Ff]onts/
 **/[Ss]haders
 **/[Ss]cenes/
+**/[Pp]refabs/
+/[Pp]rojectSettings/
 
 *.asset
 *.mat
