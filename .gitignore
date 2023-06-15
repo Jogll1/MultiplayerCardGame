@@ -9,7 +9,7 @@
 **/[Bb]uilds/
 **/[Ll]ogs/
 **/[Uu]ser[Ss]ettings/
-**/[Pp]roject[Ss]ettings/
+/[Pp]roject[Ss]ettings/
 
 # custom ignored folders
 **/[Pp]ackages/
@@ -29,6 +29,8 @@
 *.asset
 *.mat
 *.prefab
+
+*BurstAotSettings_StandaloneWindows.json
 
 
 # MemoryCaptures can get excessive in size.
