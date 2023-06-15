@@ -29,8 +29,9 @@ public class CardAttack : NetworkBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     private void Start()
     {
+        //always gets this player, not opponent, even if card is not owned
         NetworkIdentity networkIdentity = NetworkClient.connection.identity;
-        gamePlayer = networkIdentity.GetComponent<GamePlayer>(); //always gets this player not opponent even if card is not owned
+        gamePlayer = networkIdentity.GetComponent<GamePlayer>();
 
         dragArrow = GameObject.FindWithTag("ArrowParent").GetComponent<UIDrawArrow>();
 
