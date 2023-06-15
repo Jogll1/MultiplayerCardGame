@@ -9,6 +9,7 @@
 **/[Bb]uilds/
 **/[Ll]ogs/
 **/[Uu]ser[Ss]ettings/
+**/[Pp]roject[Ss]ettings/
 
 # custom ignored folders
 **/[Pp]ackages/
@@ -24,7 +25,6 @@
 **/[Ss]haders
 **/[Ss]cenes/
 **/[Pp]refabs/
-/[Pp]rojectSettings/
 
 *.asset
 *.mat
